@@ -5,8 +5,8 @@ import math
 
 from scipy.spatial.transform import Rotation as R
 
-from gym_pybullet_drones.envs.BaseAviary import BaseAviary
-from gym_pybullet_drones.utils.enums import DroneModel, Physics
+from envs.BaseAviary import BaseAviary
+from utils.enums import DroneModel, Physics
 try:
     import pycffirmware as firm 
 except ImportError:

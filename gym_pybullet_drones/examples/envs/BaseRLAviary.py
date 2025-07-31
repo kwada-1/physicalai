@@ -4,9 +4,9 @@ import pybullet as p
 from gymnasium import spaces
 from collections import deque
 
-from gym_pybullet_drones.envs.BaseAviary import BaseAviary
-from gym_pybullet_drones.utils.enums import DroneModel, Physics, ActionType, ObservationType, ImageType
-from gym_pybullet_drones.control.DSLPIDControl import DSLPIDControl
+from envs.BaseAviary import BaseAviary
+from utils.enums import DroneModel, Physics, ActionType, ObservationType, ImageType
+from control.DSLPIDControl import DSLPIDControl
 
 class BaseRLAviary(BaseAviary):
     """Base single and multi-agent environment class for reinforcement learning."""
